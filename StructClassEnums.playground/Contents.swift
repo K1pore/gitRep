@@ -2,4 +2,4 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-// hi
+// lesson struct 
