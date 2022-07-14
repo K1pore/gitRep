@@ -30,11 +30,12 @@ myFunc(a: 5, b: 3) {a,b in
     //someCode
     return a + b
 }
-func autoClouserFunc(isOk: Bool, clouser: () -> Void) {
+// @autoclosure - is bad practcal its say company apple in self documentation
+func autoClouserFunc(isOk: Bool, clouser: @autoclosure () -> Void) {
     if isOk {
         clouser()
     } else {
         print("sorry")
     }
 }
-autoClouserFunc(isOk: false, clouser: { print("my clouse") })
+autoClouserFunc(isOk: true, clouser: print("my clouse") )
