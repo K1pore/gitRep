@@ -140,4 +140,4 @@ var secondstep = moveFoward(postion: firstStep, direction: firsDir)
 var secondir = Imperfective.north
 var thirdstep = moveFoward(postion: secondstep, direction: secondir)
 
-// Структуры нужны когда не нужно наследование и не нужно хранение значений а не ссылка
+// Структуры нужны когда не нужно наследование и нужно хранение значений, а не ссылка
